@@ -1,0 +1,5 @@
+<%= form_for @shout do |f| %>
+<%= f.text_field :body, placeholder: 'shout content here' %>
+<%= f.submit 'shout!' %>
+<% end %>
+<%= render @shouts %>
